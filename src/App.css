@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+  /* margin: 5px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
